@@ -13,6 +13,7 @@
 		F919D8B81D57B2BF00F26F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919D8B71D57B2BF00F26F60 /* Assets.xcassets */; };
 		F919D8BB1D57B2BF00F26F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919D8B91D57B2BF00F26F60 /* LaunchScreen.storyboard */; };
 		F919D8C31D57B38500F26F60 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919D8C21D57B38500F26F60 /* Character.swift */; };
+		F919D8C51D57B8F300F26F60 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919D8C41D57B8F300F26F60 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F919D8BA1D57B2BF00F26F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F919D8BC1D57B2BF00F26F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F919D8C21D57B38500F26F60 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		F919D8C41D57B8F300F26F60 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F919D8B91D57B2BF00F26F60 /* LaunchScreen.storyboard */,
 				F919D8BC1D57B2BF00F26F60 /* Info.plist */,
 				F919D8C21D57B38500F26F60 /* Character.swift */,
+				F919D8C41D57B8F300F26F60 /* Player.swift */,
 			);
 			path = roleplaygame;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F919D8C51D57B8F300F26F60 /* Player.swift in Sources */,
 				F919D8C31D57B38500F26F60 /* Character.swift in Sources */,
 				F919D8B31D57B2BF00F26F60 /* ViewController.swift in Sources */,
 				F919D8B11D57B2BF00F26F60 /* AppDelegate.swift in Sources */,
