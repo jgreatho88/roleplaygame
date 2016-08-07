@@ -34,13 +34,17 @@
                                     <constraint firstAttribute="height" constant="50" id="V2B-9t-vg5"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chest" translatesAutoresizingMaskIntoConstraints="NO" id="stQ-r7-Xf0">
-                                <rect key="frame" x="409" y="389" width="171" height="163"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MY1-Ea-bO1">
+                                <rect key="frame" x="429" y="401" width="151" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="163" id="84a-SL-OIu"/>
-                                    <constraint firstAttribute="width" constant="171" id="l9O-Gd-qa1"/>
+                                    <constraint firstAttribute="width" constant="151" id="msv-2e-AO9"/>
+                                    <constraint firstAttribute="height" constant="150" id="upf-9W-vHB"/>
                                 </constraints>
-                            </imageView>
+                                <state key="normal" image="chest"/>
+                                <connections>
+                                    <action selector="onChestTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Em5-cp-wvY"/>
+                                </connections>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="player" translatesAutoresizingMaskIntoConstraints="NO" id="Kkg-5l-vI0">
                                 <rect key="frame" x="20" y="357" width="194" height="195"/>
                                 <constraints>
@@ -90,8 +94,8 @@
                         <constraints>
                             <constraint firstItem="PFi-dl-dlX" firstAttribute="centerX" secondItem="aLV-4x-PwG" secondAttribute="centerX" id="6iz-gL-bbk"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MrH-OC-4Ny" secondAttribute="bottom" id="6uW-ER-NiN"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="stQ-r7-Xf0" secondAttribute="bottom" constant="48" id="A47-Pc-SWX"/>
-                            <constraint firstItem="stQ-r7-Xf0" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="GOp-3w-80Z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="MY1-Ea-bO1" secondAttribute="bottom" constant="49" id="AOJ-q3-uhE"/>
+                            <constraint firstItem="MY1-Ea-bO1" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="DQX-Je-GiG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bEO-0s-THE" secondAttribute="trailing" constant="155" id="Mh5-Do-dE2"/>
                             <constraint firstItem="MrH-OC-4Ny" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MpU-Xk-13w"/>
                             <constraint firstAttribute="trailing" secondItem="pfV-AS-LyY" secondAttribute="trailing" id="NX6-6Y-CiU"/>
@@ -111,6 +115,13 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UNs-lo-Qpt" secondAttribute="bottom" constant="34" id="z72-IM-zbj"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chestBtn" destination="MY1-Ea-bO1" id="IoF-a0-pI6"/>
+                        <outlet property="enemyHpLbl" destination="bEO-0s-THE" id="OXv-WL-eov"/>
+                        <outlet property="enemyImg" destination="UNs-lo-Qpt" id="rXo-xD-Wj8"/>
+                        <outlet property="playerHpLbl" destination="CET-Hk-0X7" id="yOu-CA-buw"/>
+                        <outlet property="printLbl" destination="PFi-dl-dlX" id="Uci-9f-fSH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
