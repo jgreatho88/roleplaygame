@@ -12,6 +12,7 @@
 		F919D8B61D57B2BF00F26F60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919D8B41D57B2BF00F26F60 /* Main.storyboard */; };
 		F919D8B81D57B2BF00F26F60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F919D8B71D57B2BF00F26F60 /* Assets.xcassets */; };
 		F919D8BB1D57B2BF00F26F60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F919D8B91D57B2BF00F26F60 /* LaunchScreen.storyboard */; };
+		F919D8C31D57B38500F26F60 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F919D8C21D57B38500F26F60 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F919D8B71D57B2BF00F26F60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F919D8BA1D57B2BF00F26F60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F919D8BC1D57B2BF00F26F60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F919D8C21D57B38500F26F60 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F919D8B71D57B2BF00F26F60 /* Assets.xcassets */,
 				F919D8B91D57B2BF00F26F60 /* LaunchScreen.storyboard */,
 				F919D8BC1D57B2BF00F26F60 /* Info.plist */,
+				F919D8C21D57B38500F26F60 /* Character.swift */,
 			);
 			path = roleplaygame;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F919D8C31D57B38500F26F60 /* Character.swift in Sources */,
 				F919D8B31D57B2BF00F26F60 /* ViewController.swift in Sources */,
 				F919D8B11D57B2BF00F26F60 /* AppDelegate.swift in Sources */,
 			);
@@ -253,6 +257,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greathousegraphics.roleplaygame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -264,6 +269,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.greathousegraphics.roleplaygame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
