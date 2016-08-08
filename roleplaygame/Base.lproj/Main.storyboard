@@ -34,7 +34,7 @@
                                     <constraint firstAttribute="height" constant="50" id="V2B-9t-vg5"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MY1-Ea-bO1">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MY1-Ea-bO1">
                                 <rect key="frame" x="429" y="401" width="151" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="151" id="msv-2e-AO9"/>
@@ -59,7 +59,7 @@
                                     <constraint firstAttribute="height" constant="195" id="kwg-JK-A4F"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Player attacked wild Kimara!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFi-dl-dlX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Press the attack button!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFi-dl-dlX">
                                 <rect key="frame" x="102" y="43" width="393" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="393" id="E6a-Ly-XXw"/>

@@ -44,8 +44,9 @@ class ViewController: UIViewController {
         } else {
             enemy = DevilWizard(startingHp: 60, attackPwr: 15)
         }
-    
-    
+        enemyImg.hidden = false
+        enemyHpLbl.text = "\(enemy.hp)"
+        
     }
 
 
@@ -61,6 +62,7 @@ class ViewController: UIViewController {
     @IBAction func attackTapped(sender: AnyObject) {
         if enemy.attemptAttack(player.attackPwr) {
             printLbl.text = "Attacked \(enemy.type) for \(player.attackPwr) HP"
+            enemyHpLbl.text = "\(enemy.hp)"
         } else {
             printLbl.text = "Attack was unsuccessful!"
         }
